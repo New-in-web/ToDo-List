@@ -12,10 +12,16 @@ function checkTrash(e){
 	const item = e.target;
 	if(item.className === 'check')
 	{
-		console.log("check");
-	}
+		const parent = item.parentElement; 
+		parent.classList.toggle('done');
+	} 
 	else if (item.className === 'trash') {
-		console.log("trash");
+		const parent = item.parentElement; 
+		parent.classList.add("fall");
+		//remove todo div after transition
+		parent.addEventListener('transitionend',function(){
+			parent.remove();
+		})
 	}
 }
 
