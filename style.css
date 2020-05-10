@@ -1,4 +1,9 @@
 body{
-	background-image: linear-gradient(to right, rgb(229, 147, 99), rgb(124, 32, 32));
-	
+	width: 80%;
+	margin: 0 15%;
+	background-image: linear-gradient(to right, rgb(229, 147, 99), rgb(124, 32, 32));	
+}
+h1{
+	font-size: 3em;
+	font-family: 'Modak', cursive;
 }
