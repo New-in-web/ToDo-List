@@ -38,3 +38,25 @@ li{
     color: lightyellow;
     font-style: oblique; 
 }
+.todo{
+	display: flex;
+	width: 20em;
+	justify-content: space-between;
+}
+.todo li{
+	flex: 1;
+}
+.todo button{
+	width: 5.8em;
+    height: 3em;
+    padding: 0;
+    margin: 0;
+}
+.todo button:hover{
+	background-color: green;
+}
+.todo button i{
+	color: black;
+	font-size: 2em;
+	pointer-events: none;
+}
