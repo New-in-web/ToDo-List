@@ -7,3 +7,56 @@ h1{
 	font-size: 3em;
 	font-family: 'Modak', cursive;
 }
+input{
+	padding: .5em;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid black;
+    color: white;
+    font-size: 1.2em;
+}
+button{
+	padding: 13px;
+    margin-left: 4px;
+    width: 8em;
+    outline: none;
+    background: no-repeat;
+    border-color: burlywood;
+    color: burlywood;
+}
+button:hover{
+    border-color: yellow;
+}
+ul{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+li{
+	font-size: 2.3em;
+    color: lightyellow;
+    font-style: oblique; 
+}
+.todo{
+	display: flex;
+	width: 20em;
+	justify-content: space-between;
+}
+.todo li{
+	flex: 1;
+}
+.todo button{
+	width: 5.8em;
+    height: 3em;
+    padding: 0;
+    margin: 0;
+}
+.todo button:hover{
+	background-color: green;
+}
+.todo button i{
+	color: black;
+	font-size: 2em;
+	pointer-events: none;
+}
